@@ -1,0 +1,35 @@
+* {
+color:black;
+padding:0px;
+margin:0px;
+}
+
+header {
+background-color: bisque;
+height: 170px;
+}
+
+.header-heading {
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+margin-top: 10px; 
+
+}
+
+.navigation-bar {
+margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+gap:300px;
+list-style-type: none;
+}
+
+.navigation-bar > li {
+    border:solid;
+    text-decoration: none;
+    
+}
