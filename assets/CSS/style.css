@@ -5,16 +5,19 @@ margin:0px;
 }
 
 header {
-background-color: bisque;
 height: 170px;
+
 }
+
+
 
 .header-heading {
 display: flex;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-margin-top: 10px; 
+line-height: normal;
+
 
 }
 
@@ -29,7 +32,25 @@ list-style-type: none;
 }
 
 .navigation-bar > li {
-    border:solid;
+
     text-decoration: none;
+    font-size: 25px;
     
+}
+
+.navigation-bar > a {
+    border: solid;
+}
+
+.navigation-bar > li > a > i {
+font-size: 1.2rem;
+}
+
+.hero-section {
+background-image: url('../images/spa-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+ 
 }
