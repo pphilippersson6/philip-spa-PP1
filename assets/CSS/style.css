@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 * {
-color:black;
-padding:0px;
-margin:0px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
 
 }
 
 header {
-height: 170px;
+    height: 170px;
 
 }
 
@@ -18,43 +18,127 @@ height: 170px;
 
 
 .header-heading {
-display: flex;
-justify-content: center;
-align-items: center;
-line-height: normal;
-font-family: 'Dancing Script', cursive;
-font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 
 }
 
 .navigation-bar {
-margin-top: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap:300px;
-list-style-type: none;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    list-style-type: none;
 }
 
-.navigation-bar > li {
-text-decoration: none;
-font-size: 25px;
-    
+.navigation-bar>li {
+    text-decoration: none;
+    font-size: 25px;
+
 }
 
-.navigation-bar > li > a{
+.navigation-bar>li>a {
     text-decoration: none;
 }
 
-.navigation-bar > li > a > i {
-font-size: 1.2rem;
+.navigation-bar>li>a>i {
+    font-size: 1.2rem;
 }
 
 .hero-section {
-background-image: url('../images/spa-image.jpg');
+    background-image: url('../images/spa-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 800px;
     width: 100%;
- 
+
+}
+
+
+
+.navigation-bar {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navigation-bar * {
+    box-sizing: border-box;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    padding: 0;
+}
+
+.navigation-bar a {
+    padding: 0.5em 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.navigation-bar a:before,
+.navigation-bar a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.navigation-bar a:before {
+    bottom: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: #2980b9;
+}
+
+.navigation-bar a:after {
+    left: 0;
+    top: 0;
+    padding: 0.5em 0;
+    position: absolute;
+    content: attr(data-hover);
+
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
+}
+
+.navigation-bar a:hover:before,
+.navigation-bar .current a:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.navigation-bar a:hover:after,
+.navigation-bar .current a:after {
+    max-width: 100%;
+}
+
+.bottom-right-text {
+    font-size: 130%;
+   font-family: 'Lato', sans-serif; 
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(107, 212, 241, 0.7);
+
+    bottom: 10px;
+    right: 150px;
+    position: absolute;
 }
