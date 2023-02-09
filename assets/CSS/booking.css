@@ -52,6 +52,7 @@ header {
 .navigation-bar>li>a>i {
     font-size: 1.2rem;
 }
+
 .hero-section-booking {
     background-image: url('../images/tim-chow-9IcKPSQ9G5Q-unsplash.jpg');
     background-repeat: no-repeat;
@@ -162,45 +163,22 @@ header {
     position: absolute;
 }
 
+/* location and contcat-form */
 
-
-
-
-/* footer css */
-input[type=text],
-select,
-textarea {
-
-    width: 50%;
-    padding: 15px;
-    border: 2px solid #6c95e0;
-    box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    resize: vertical
-  
+.booking-header {
+    border: solid;
 }
-
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-
-}
-
 
 .google-maps {
-border:solid;
-display: block;
-margin-top: 150px;
-margin-left: auto;
-margin-right: auto;
-
+    border: solid;
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-input[type=text], input[type=email],
+input[type=text],
+input[type=email],
 select,
 textarea {
 
@@ -211,7 +189,6 @@ textarea {
     margin-top: 5px;
     margin-bottom: 15px;
     resize: vertical
-  
 }
 
 input[type=submit] {
@@ -222,12 +199,37 @@ input[type=submit] {
     border-radius: 4px;
 
 }
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid #6c95e0;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+
+}
+
 .form-wrap {
     text-align: center;
     margin-top: 125px;
     border-radius: 5px;
     padding: 20px;
 }
+
+/* footer css */
 
 .footer {
     background: #dad4d4;
