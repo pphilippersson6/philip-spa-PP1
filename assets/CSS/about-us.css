@@ -51,18 +51,6 @@ header {
     font-size: 1.2rem;
 }
 
-.hero-section {
-
-    background-image: url('../images/alex-bertha-Jyg7xHRmXiU-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    left: auto;
-    right: auto;
-
-}
-
 .navigation-bar {
     font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
