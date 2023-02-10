@@ -166,13 +166,16 @@ header {
 /* location and contcat-form */
 
 .booking-header {
-    border: solid;
+
+    text-align: center;
+    margin-top: 130px;
+    
 }
 
 .google-maps {
     border: solid;
     display: block;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
