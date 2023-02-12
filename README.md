@@ -29,3 +29,15 @@ This is a website for a luxurious Spa & Resort located in Sweden. Everyone needs
 - __Booking__
 
 - The booking site contains a map from google, with the location of the spa. This allows the user to locate, and find us without any doubts.
+- It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below.
+- Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side.
+
+- __About us__
+- The about us page contains infomation of what services we offer.
+- The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. 
+
+### Features Left to Implement
+
+- Another feature idea
+
+## Testing 
