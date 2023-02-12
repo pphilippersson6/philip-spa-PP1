@@ -128,17 +128,19 @@ text-align: center;
 .facilities-text {
 border:solid;
 }
-.image-container {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
+
+#image-container {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    
   }
   
-  .image-container > img {
-    float: left;
-    border: 2px solid black;
-    width: 45%;
-    margin: 1.66%;
+  #image-container > img {
+
+    border: 2px solid rgb(0, 0, 0);
+    width: 35%;
+    margin: 2px;
   }
 
  /* Footer */
