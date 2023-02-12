@@ -126,29 +126,28 @@ body {
 }
 
 .facilities-text {
-    border: solid;
+    text-align: center;
+    padding: 2%;
 }
 
 .rows {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
-
-.image-container {
-
-
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .image-container>img {
-border: solid black;
+    border: solid black;
     width: 100%;
     height: 70%;
 
 }
 
-.image-container> h3, .image-container > p {
-
+.image-container>h3,
+.image-container>p {
+    text-align: center;
 }
 
 /* Footer */
