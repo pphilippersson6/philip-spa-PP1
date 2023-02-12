@@ -129,18 +129,27 @@ text-align: center;
 border:solid;
 }
 
-#image-container {
-    width: 200px;
-    height: 200px;
-    margin: 30px;
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.image-container {
+  
+    flex: 45%;
+    padding: 10px;
+    font-size: 25px;
     
   }
   
-  #image-container > img {
+  .image-container > img {
 
     border: 2px solid rgb(0, 0, 0);
-    width: 35%;
+    width: 30%;
     margin: 2px;
+
+
   }
 
  /* Footer */
