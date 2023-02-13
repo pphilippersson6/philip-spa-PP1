@@ -243,3 +243,18 @@ body {
     font-size: 2em;
     margin: 0% 1%;
 }
+
+
+
+/* Tablet media-size */
+@media screen and (max-width: 768px) {
+  
+    
+}
+
+/* Phone media-size */
+@media screen and (max-width: 425px) {
+
+
+     
+ }
