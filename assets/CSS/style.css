@@ -63,6 +63,7 @@ header {
 
 }
 
+
 .navigation-bar {
     font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
@@ -248,8 +249,37 @@ body {
 
 /* Tablet media-size */
 @media screen and (max-width: 768px) {
-  
+   
+    .left-announcement-heading {
+        width: 450px;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
     
+    }
+    
+    #left-announcement {
+        
+        padding-top: 30px;
+        width: 80%;
+        float: left;
+    
+    }
+
+    .right-announcement-heading {
+        width: 450px;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    
+    #right-announcement {
+        padding-top: 30px;
+        width: 80%;
+        float: right;
+    }
 }
 
 /* Phone media-size */
