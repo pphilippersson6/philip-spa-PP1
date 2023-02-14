@@ -36,8 +36,11 @@ This is a website for a luxurious Spa & Resort located in Sweden. Everyone needs
 - The about us page contains infomation of what services we offer.
 - The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. 
 
-### Features Left to Implement
-
-- Another feature idea
+### Features to implement in the future
+- In the future, so do i want to add a shopping-bar, where the customers can buy stuff from our spa. Like a bathrobe, schampoo, lotion, bath salt & scrub and so on.
 
 ## Testing 
+
+-__Deployment__
+
+This site
