@@ -65,9 +65,16 @@ A link in the footer where you can press - to get direct linked to the mail abou
 ## Features to implement in the future
 - In the future, so do i want to add a shopping-bar, where the customers can buy stuff from our spa. Like a bathrobe, schampoo, lotion, bath salt & scrub and so on.
 
-## Testing 
+# Testing 
 
-## Deployment
+# Deployment
+This site was deployed to Github pages. To deploy the site on Github pages, you do this:
+1. At first, you navigate to **Settings** on the page where you see your project.
+2. Scroll down to you see the **Pages** section on the left side of the page. Press it.
+3. Under the **Build and deployment** header, navigate to the second header - **Branch**. Make sure to select the **source**, to your main. Its often called **main** or **master**, and then **save**.
+4. After some minutes, the website will be shown as live. if you refresh the page, and scroll at the top, your website-link will be shown. This indicate that everything is correct.
+
+### 
 
 ### Validator Testing
 
@@ -79,3 +86,17 @@ A link in the footer where you can press - to get direct linked to the mail abou
 
     ### Unfixed bugs
     - 
+
+    # Credits
+    ### Content
+    * The font is from [Google Fonts] ()
+    * The icons and fonts are also from [Bootstrap] https://getbootstrap.com/
+    * The colors are from color-palettes, by[My Brand New Logo] https://mybrandnewlogo.com/
+    * The map is made from [Google Maps]
+    * The validation websites are from the official site [https://validator.w3.org/]() and [https://jigsaw.w3.org/css-validator/]
+    * The contact-form is inspired by [https://www.majesticform.com/form-guides/html-email-form]
+    * The wireframe is designed on https://miro.com/
+    * Navigation-bar and the header are inspired by the love-running project made by [The Code Institute] (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+
+    ### Media
+    * The images are borrowed from https://unsplash.com/s/photos/spa
