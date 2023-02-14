@@ -43,4 +43,16 @@ This is a website for a luxurious Spa & Resort located in Sweden. Everyone needs
 
 -__Deployment__
 
-This site
+### Validator Testing
+
+- HTML 
+    - No errors was found when i tested it at the official [W3C validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
+
+- CSS 
+    - No errors was found here eighter, when i ran it trought the official [(Jigsaw) validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+    ### Unfixed bugs
+    - 
+
+
+    ## Deployment
