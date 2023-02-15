@@ -5,9 +5,16 @@ This is a very easy-navigated website for the visitors to book visits and to get
 
 # User Experience (UX)
 
-## Wireframes
+## Wireframe
+- The wireframe for this website is designed in [Miro](https://miro.com/). There is a design that is represented on most devices. This was a design that was made in the beginning, so there are some minor differences.
 
 ## Structure of the site
+
+Philip's Spa & Resort has three pages of content. The landingpage [Home](index.html) is the first page you will see. The other two pages are the [Booking](booking.html) and the [About Us](about-us.html). Here can you navigate to eighter get info about what content to expect, or you can fill in the contact form to get help by any questions.
+
+## Color choice
+I've chosen to use light colors on the background-color. This is to get a soft and relaxing feeling, and it will blend in easily by the pictures i have chosen to use on my page.
+I got the inspiration to find good color-matchings at the palettes by [mybrandnewlogo](https://mybrandnewlogo.com/)
 
 ### Navigation Bar
 
@@ -66,17 +73,32 @@ A link in the footer where you can press - to get direct linked to the mail abou
 - In the future, so do i want to add a shopping-bar, where the customers can buy stuff from our spa. Like a bathrobe, schampoo, lotion, bath salt & scrub and so on.
 
 # Testing 
-
+----------
 # Deployment
+
+## Deploy the website-project
 This site was deployed to Github pages. To deploy the site on Github pages, you do this:
 1. At first, you navigate to **Settings** on the page where you see your project.
 2. Scroll down to you see the **Pages** section on the left side of the page. Press it.
 3. Under the **Build and deployment** header, navigate to the second header - **Branch**. Make sure to select the **source**, to your main. Its often called **main** or **master**, and then **save**.
-4. After some minutes, the website will be shown as live. if you refresh the page, and scroll at the top, your website-link will be shown. This indicate that everything is correct.
+4. After some minutes, the website will be shown as live. if you refresh the page, and scroll at the top, your website-link will be shown. This indicate that everything is correct. This is how the link shall look like when you are ready to go (https://pphilippersson6.github.io/philip-spa-PP1/)
 
-### 
+### Fork the repository (Github)
+You can create a copy of the project/repository by use something called forking. To fork the content on Github, 
+1. Locate the project/repo you want to fork.
+2. Press **Fork** on the top right side of the page. This makes you a copy of the project in your own github. This is good if you are more than one to work on a project. It is hard to work on the same file more than one at a time.
 
-### Validator Testing
+### Local clone
+To clone the project local, follow the steps below.
+1. on the lef side of the green button (Gitpod) where you press to get to the code,
+there is a button called **code**, press it.
+2. Then press on the copy-button to get your own link. This is to clone the project, by getting an URL (**HTTPS**).
+3. Open **Git Bash** and change it to the location you want to cone it.
+4. Type **git clone** and paste the url, and enter.
+Now you have a cloned project stored local.
+
+
+# Validator Testing
 
 - HTML 
     - No errors was found when i tested it at the official [W3C validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
