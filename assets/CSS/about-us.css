@@ -191,25 +191,25 @@ body {
     margin: 0% 1%;
 }
 
-/* Tablet media-size */
-@media screen and (max-width: 768px) {
-  
+/* Medium tablet-size */
+@media screen and (max-width: 820px) {
+    body {
+        background-color: green;
+    }
+    }
     
-}
-
-/* Phone media-size */
-@media screen and (max-width: 425px) {
-
-.rows {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin: auto;
-
-}
-.image-container {
+    /* Small Tablet media-size */
+    @media screen and (max-width: 768px) {
+       
+        body {
     
-}
-     
- }
+            background-color: red;    
+    }
+    }
+    
+    /* Phone media-size */
+    @media screen and (max-width: 425px) {
+        body {
+            background-color: blue;
+        }
+    }

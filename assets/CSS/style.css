@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Tangerine&display=swap');
 
-
-
-
 * {
     color: black;
     padding: 0px;
@@ -204,7 +201,7 @@ body {
 
 
 
- /* Footer */
+/* Footer */
 
 .footer {
     background: #dad4d4;
@@ -246,43 +243,53 @@ body {
 }
 
 
+/* Medium tablet-size */
+@media screen and (max-width: 820px) {
+    body {}
 
-/* Tablet media-size */
-@media screen and (max-width: 768px) {
-   
-    .left-announcement-heading {
-        width: 450px;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    
-    }
-    
     #left-announcement {
-        
-        padding-top: 30px;
-        width: 80%;
-        float: left;
-    
+        float: none;
+        margin: auto;
+
     }
 
-    .right-announcement-heading {
-        width: 450px;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
-    
     #right-announcement {
-        padding-top: 30px;
-        width: 80%;
-        float: right;
+        float: none;
+        margin: auto;
+
+    }
+
+    #announcements {
+        height: 1000px;
+        margin-bottom: 0px;
+        float: none;
+    }
+    #text-image-header {
+        width: 250px;
+        height: 200px;
+    
+        padding-top: 20px;
+        padding-left: 20px;
+    
+        background-color: rgba(100, 179, 201, 0.7);
+        bottom: 8%;
+        left: 7%;
+        position: absolute;
+    }
+}
+
+/* Small Tablet media-size */
+@media screen and (max-width: 768px) {
+
+    body {
+
+        background-color: red;
     }
 }
 
 /* Phone media-size */
 @media screen and (max-width: 425px) {
-
+    body {
+        background-color: blue;
+    }
 }
