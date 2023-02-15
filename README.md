@@ -72,8 +72,6 @@ A link in the footer where you can press - to get direct linked to the mail abou
 ## Features to implement in the future
 - In the future, so do i want to add a shopping-bar, where the customers can buy stuff from our spa. Like a bathrobe, schampoo, lotion, bath salt & scrub and so on.
 
-# Testing 
-----------
 # Deployment
 
 ## Deploy the website-project
@@ -97,16 +95,28 @@ there is a button called **code**, press it.
 4. Type **git clone** and paste the url, and enter.
 Now you have a cloned project stored local.
 
+# Testing
 
-# Validator Testing
+## Validator Testing
+The codes have been tested by alot of aspects. One of the programs i used was the [W3C Validator](https://validator.w3.org/) This one checkt the HTML, and [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) checks the CSS.
 
-- HTML 
-    - No errors was found when i tested it at the official [W3C validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
+- HTML check at the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
+    - The first run showed me a small error - and this was fixed evry simple since i just forgot to close a tag.
+    - I made a second run to check that nothing else was appearing. 
+        No errors was found when i tested it. 
 
 - CSS 
-    - No errors was found here eighter, when i ran it trought the official [(Jigsaw) validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+    - No errors was found here eighter, when i ran it trought the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-    ### Unfixed bugs
+## Responsive test (media)
+I have tested the site on three different main-sizes. 
+Those are the three ones that are the most important - since if those work, the others work aswell.
+Iphone SE (375x667px) 
+Ipad Air (820x1180px)
+Ipad Mini (768x1024px)
+
+
+### Unfixed bugs
     - 
 
     # Credits
