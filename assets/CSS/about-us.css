@@ -154,7 +154,7 @@ body {
 /* Footer */
 
 .footer {
-    background: #dad4d4;
+    background: rgba(120, 125, 126, 0.604);
     padding: 18px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
@@ -164,13 +164,13 @@ body {
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: 0.8em;
 }
 
 .footer .row a {
     text-decoration: none;
-    color: gray;
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 
