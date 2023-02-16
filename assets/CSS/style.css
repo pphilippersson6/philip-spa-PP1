@@ -26,6 +26,17 @@ header {
 
 }
 
+.hero-section {
+
+    background-image: url('../images/alex-bertha-Jyg7xHRmXiU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    left: auto;
+    right: auto;
+}
+
 .navigation-bar {
     margin-top: 40px;
     display: flex;
@@ -48,17 +59,6 @@ header {
     font-size: 1.2rem;
 }
 
-.hero-section {
-
-    background-image: url('../images/alex-bertha-Jyg7xHRmXiU-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    left: auto;
-    right: auto;
-
-}
 
 
 .navigation-bar {
@@ -162,7 +162,6 @@ body {
     text-decoration: underline;
 }
 
-
 .flexbox {
     display: flex;
     gap: 20px;
@@ -170,15 +169,13 @@ body {
     text-align: center;
 }
 
-
 .announcement-image {
     margin-top: 20px;
-   height: 300px;
-   width: 500px;
-   margin-bottom: 20px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 20px;
 
 }
-
 
 
 /* Footer */
@@ -234,13 +231,14 @@ body {
         margin-bottom: 0px;
 
     }
-   
+
     #right-announcement {
-margin-top: 30px;
+        margin-top: 30px;
     }
-.flexbox {
-    display: block;
-}
+
+    .flexbox {
+        display: block;
+    }
 
     .text-image-header {
         font-size: 22px;
@@ -257,38 +255,43 @@ margin-top: 30px;
 
 /* Phone media-size */
 @media screen and (max-width: 375px) {
+
+    .header-heading {
+        font-size: 40px;
+    }
+
     .text-image-header {
-        font-size: 22px;
-        width: 200px;
-        height: 150px;
-        bottom: 2%;
-        left: 7%;
+        display: none;
 
     }
 
     .hero-section {
-        height: 1000px;
-        width: 150%;
+        height: 600px;
+        width: 100%;
 
     }
 
-    .navigation-bar {
-        gap: 0%;
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
     }
-
 
     #announcements {
-        height: 1000px;
+        height: 740px;
         margin-bottom: 0px;
+
     }
 
-    .text-image-header {
-        font-size: 22px;
-        width: 200px;
-        height: 0px;
-        bottom: 25%;
-        left: 7%;
+    #right-announcement {
+        margin-top: 30px;
+    }
 
+    .announcement-image {
+        margin-top: 20px;
+        height: 150px;
+        width: 250px;
+        margin-bottom: 10px;
+    
     }
 
 }

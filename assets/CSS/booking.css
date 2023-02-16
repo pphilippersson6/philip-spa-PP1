@@ -259,23 +259,84 @@ input[type=submit] {
 
 /* Medium tablet-size */
 @media screen and (max-width: 820px) {
-    body {
-        background-color: green;
+    .navigation-bar {
+        gap: 0%;
     }
+
+    #announcements {
+        height: 1000px;
+        margin-bottom: 0px;
+
     }
-    
-    /* Small Tablet media-size */
-    @media screen and (max-width: 768px) {
-       
-        body {
-    
-            background-color: red;    
+
+    #right-announcement {
+        margin-top: 30px;
     }
+
+    .flexbox {
+        display: block;
     }
-    
-    /* Phone media-size */
-    @media screen and (max-width: 425px) {
-        body {
-            background-color: blue;
-        }
+
+    .text-image-header {
+        font-size: 22px;
+        width: 200px;
+        height: 150px;
+        bottom: 25%;
+        left: 7%;
+
     }
+}
+
+/* Small Tablet media-size */
+@media screen and (max-width: 768px) {}
+
+/* Phone media-size */
+@media screen and (max-width: 375px) {
+
+    .header-heading {
+        font-size: 40px;
+    }
+
+    .text-image-header {
+        display: none;
+
+    }
+
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .text-image-header-booking {
+        font-size: 17px;
+        letter-spacing: 3px;
+        width: 180px;
+        height: 180px;
+        padding-top: 20px;
+        padding-left: 15px;
+        background-color: rgba(100, 179, 201, 0.7);
+        bottom: 1%;
+        right: 26%;
+       justify-content: center;
+    }
+    .google-maps {
+        border: solid;
+        display: block;
+        width:300px;
+        height:300px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form {
+ 
+}
+}
+
+
+
+
+
+
+
