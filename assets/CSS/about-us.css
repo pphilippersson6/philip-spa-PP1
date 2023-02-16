@@ -28,7 +28,7 @@ header {
     font-size: 50px;
 
 }
-
+/* Navbar */
 .navigation-bar {
     margin-top: 40px;
     display: flex;
@@ -120,6 +120,7 @@ body {
     background-color: #e5e5e5;
 }
 
+/* Facilities */
 .facilities-header {
     font-size: 30px;
     text-align: center;
@@ -197,32 +198,22 @@ body {
         gap: 0%;
     }
 
-    #announcements {
-        height: 1000px;
-        margin-bottom: 0px;
 
-    }
-
-    #right-announcement {
-        margin-top: 30px;
-    }
-
-    .flexbox {
-        display: block;
-    }
-
-    .text-image-header {
-        font-size: 22px;
-        width: 200px;
-        height: 150px;
-        bottom: 25%;
-        left: 7%;
-
-    }
 }
 
+/* Medium tablet-size */
+@media screen and (max-width: 820px) {
+
+}
+    
+
 /* Small Tablet media-size */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+ 
+    }
+
+    
+
 
 /* Phone media-size */
 @media screen and (max-width: 375px) {
@@ -231,38 +222,11 @@ body {
         font-size: 40px;
     }
 
-    .text-image-header {
-        display: none;
-
-    }
-
-    .hero-section {
-        height: 600px;
-        width: 100%;
-
-    }
 
     .navigation-bar>li {
         text-decoration: none;
         font-size: 14px;
     }
-
-    #announcements {
-        height: 740px;
-        margin-bottom: 0px;
-
-    }
-
-    #right-announcement {
-        margin-top: 30px;
-    }
-
-    .announcement-image {
-        margin-top: 20px;
-        height: 150px;
-        width: 250px;
-        margin-bottom: 10px;
-
-    }
+  
 
 }
