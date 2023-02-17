@@ -41,8 +41,9 @@ I got the inspiration to find good color-matchings at the palettes by [mybrandne
 
  ### Booking
 
-- The booking site contains a map from google, with the location of the spa ![Google maps](readme-assets/images/google-maps-loaction.png).
-    This allows the user to locate, and find us without any doubts.
+- The booking site contains a map from google, with the location of the spa. This allows the user to locate, and find us without any doubts. 
+![Google maps](readme-assets/images/google-maps-loaction.png)
+    
 - It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below. ![Contact-text](readme-assets/images/contactustext.png)
 - Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side. ![Contactform](readme-assets/images/contact-form.png)
 
@@ -111,7 +112,7 @@ To clone the project local, follow the steps below.
 1. on the left side of the green button (Gitpod) where you press to get to the code,
 there is a button called **code**, press it. ![Git Code](readme-assets/images/github-clone-code.png)
 2. Then press on the copy-button to get your own link. This is to clone the project, by getting an URL (**HTTPS**). ![Copy HTTPS](readme-assets/images/github-clone-copy.png)
-3. Open **Git Bash** and change it to the location you want to cone it.
+3. Open **Git Bash**/**Terminal** and change it to the location you want to cone it.
 4. Type **git clone** and paste the url, and enter.
 Now you have a cloned project stored local.
 
