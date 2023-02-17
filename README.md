@@ -15,6 +15,11 @@ Philip's Spa & Resort has three pages of content. The landingpage [Home](index.h
 ## Color choice
 I've chosen to use light colors on the background-color. This is to get a soft and relaxing feeling, and it will blend in easily by the pictures i have chosen to use on my page.
 I got the inspiration to find good color-matchings at the palettes by [mybrandnewlogo](https://mybrandnewlogo.com/)
+Those are the colors that are on the main page:
+- #b4cac3 ![homepage color](readme-assets/images/#b4cac3.png)
+- #787d7e9a
+- #1a95b4
+- #64b3c9b3
 
 ### Navigation Bar
 

@@ -137,7 +137,7 @@ header {
     padding-top: 20px;
     padding-left: 20px;
 
-    background-color: rgba(100, 179, 201, 0.7);
+    background-color: #64b3c9b3;
     bottom: 8%;
     left: 7%;
     position: absolute;
@@ -181,7 +181,7 @@ body {
 /* Footer */
 
 .footer {
-    background: rgba(120, 125, 126, 0.604);
+    background: #787d7e9a;
     padding: 18px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
