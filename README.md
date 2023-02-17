@@ -6,61 +6,66 @@ This is a very easy-navigated website for the visitors to book visits and to get
 # User Experience (UX)
 
 ## Wireframe
-- The wireframe for this website is designed in [Miro](https://miro.com/). There is a design that is represented on most devices. This was a design that was made in the beginning, so there are some minor differences.
+- The wireframe for this website is designed in [Miro](https://miro.com/). There is a design that is represented on most devices. This was a design that was made in the beginning, so there are some minor differences. 
+![Wireframe](readme-assets/images/wireframe.png)
 
 ## Structure of the site
 
 Philip's Spa & Resort has three pages of content. The landingpage [Home](index.html) is the first page you will see. The other two pages are the [Booking](booking.html) and the [About Us](about-us.html). Here can you navigate to eighter get info about what content to expect, or you can fill in the contact form to get help by any questions.
 
 ## Color choice
-I've chosen to use light colors on the background-color. This is to get a soft and relaxing feeling, and it will blend in easily by the pictures i have chosen to use on my page.
+I've chosen to use light colors on the background-color. This is to get a soft and relaxing feeling, to represent a feeling you want to achieve at a spa. It will blend in easily by the pictures i have chosen to use on my page.
 I got the inspiration to find good color-matchings at the palettes by [mybrandnewlogo](https://mybrandnewlogo.com/)
-Those are the colors that are on the main page:
-- #b4cac3 ![homepage color](readme-assets/images/#b4cac3.png)
-- #787d7e9a
-- #1a95b4
-- #64b3c9b3
-
-### Navigation Bar
-
-- I decided to have the nav-bar on all three landingpages, because it looks more clean, and also is easier to navigate trought the website. 
-- The logo is also a link, that will take you home to the first page. This helps anyone if they got confused, and want to start over. !
+![Main Colors](readme-assets/images/colorpalette%20main.png)
 
 - ### Landing Page
 
 - The homepage (landing page) have a big picture of a pool, with a text in it, to get visitors attention. The things i wanted to create was luxorious and relaxing content.
+![Landing page](readme-assets/images/landingpage.png)
 
-### The weekend package!
+### Navigation Bar
+
+- I decided to have the nav-bar on all three landingpages, because it looks more clean, and also is easier to navigate trought the website. 
+- The logo is also a link, that will take you home to the first page. This helps anyone if they got confused, and want to start over. ![Nav-bar](readme-assets/images/nav-bar.png)
+
+### The weekend packages!
 
 - The user will get two offers from whats discounted/announced right now.
-- I have provided the two offers with a clickable picture, that will navigate them to a video of whats offered. 
+- I have provided the two offers with a clickable picture, that will navigate them to a video of whats offered. ![Weekend-packages](readme-assets/images/weekend-packages.png)
 
  ### Footer section
 
 - The footer have links to our social media, that will open up in a new tab in the browser. This is provided since they will klick at the links, and get more inspired to book a visit.
 - The footer does also contain a contact us button, where the contact-email will open up in a new tab, or in the email application you're using.
-- It also have a our service button to get navigated to what we offer. And this is a link to the about us section where the services are located.
+- It also have a our service button to get navigated to what we offer. And this is a link to the about us section where the services are located. ![Footer](readme-assets/images/footer.png)
 
  ### Booking
 
-- The booking site contains a map from google, with the location of the spa. This allows the user to locate, and find us without any doubts.
-- It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below.
-- Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side.
+- The booking site contains a map from google, with the location of the spa ![Google maps](readme-assets/images/google-maps-loaction.png).
+    This allows the user to locate, and find us without any doubts.
+- It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below. ![Contact-text](readme-assets/images/contactustext.png)
+- Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side. ![Contactform](readme-assets/images/contact-form.png)
 
  ### About Us
 - The about us page contains infomation of what services we offer.
-- The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. 
+- The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. ![About us part1](readme-assets/images/about-us1.png), ![About us part2](readme-assets/images/about-us2.png), ![About us part3](readme-assets/images/about-us3.png)
 
 # Features
 
 This is a website that is easy to navigate throught. 
-It has some small features to make the website easier for the visitor to use. Like a contact-form, where you can ask all questions, a map where we are located and information about what we have to offer.
+It has some small features to make the website easier for the visitor to use. Like a contact-form, where you can ask all questions, a map where we are located and information about what we have to offer on the about us section.
 
 ## Existing Features
+
+### Header
+- The header is direct linked back to the main page/landing page, to easy help the user back to the first page.
 
 ### Navigation Menu
 - Sited at the top of the whole website.
 This navigation-menu is to help the users to navigate on the site. This is a fully functional bar, that will help you to move forward to the next page - or backwards to the homepage.
+
+### Video links
+- The weekend-packages have images that are linked to a video. This makes it easy to understand for the user what to expect, how the buffet, or massage is performed.
 
 ### Google Maps
 - A google map, where you can see where the spa should be located (i have taken another location due to hide my personal address).
@@ -89,7 +94,9 @@ This site was deployed to Github pages. To deploy the site on Github pages, you 
 ### Fork the repository (Github)
 You can create a copy of the project/repository by use something called forking. To fork the content on Github, 
 1. Locate the project/repo you want to fork.
-2. Press **Fork** on the top right side of the page. This makes you a copy of the project in your own github. This is good if you are more than one to work on a project. It is hard to work on the same file more than one at a time.
+2. Press **Fork** on the top right side of the page. 
+3. Press the green button to make the copy to your own github.
+This makes you a copy of the project in your own github. This is good if you are more than one to work on a project. It is hard to work on the same file more than one at a time.
 
 ### Local clone
 To clone the project local, follow the steps below.
