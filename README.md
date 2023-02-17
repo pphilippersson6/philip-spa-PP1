@@ -46,6 +46,11 @@ I got the inspiration to find good color-matchings at the palettes by [mybrandne
 - It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below. ![Contact-text](readme-assets/images/contactustext.png)
 - Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side. ![Contactform](readme-assets/images/contact-form.png)
 
+### Thank you for contacting us page
+
+- When submitting the contact-form, you will get directed to a extern page that says "thank you for contacting us, we will get back to you shortly"
+Then, there's also a button that will get you back to the main page. ![Form-message](readme-assets/images/formsubmit-msg.png)
+
  ### About Us
 - The about us page contains infomation of what services we offer.
 - The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. ![About us part1](readme-assets/images/about-us1.png), ![About us part2](readme-assets/images/about-us2.png), ![About us part3](readme-assets/images/about-us3.png)
@@ -71,7 +76,10 @@ This navigation-menu is to help the users to navigate on the site. This is a ful
 - A google map, where you can see where the spa should be located (i have taken another location due to hide my personal address).
 
 ### Contactform
-- A fully functional contactform that the users can send a free-text about a booking, questions or anything else they need.
+- A fully functional contactform that the users can send a free-text about a booking, questions or anything else they need, and when submitting - a new page appear, that says: thank you for your message, we will get back to you soon.
+
+### Back to homepage
+Back to homepage button in the submit-page, that will direct you back to the main page.
 
 ### About Us
 - The about us section is where all the info for the spa is located. Like what the spa can offer, how the different stuff look like (images).
@@ -86,23 +94,23 @@ A link in the footer where you can press - to get direct linked to the mail abou
 
 ## Deploy the website-project
 This site was deployed to Github pages. To deploy the site on Github pages, you do this:
-1. At first, you navigate to **Settings** on the page where you see your project.
-2. Scroll down to you see the **Pages** section on the left side of the page. Press it.
-3. Under the **Build and deployment** header, navigate to the second header - **Branch**. Make sure to select the **source**, to your main. Its often called **main** or **master**, and then **save**.
-4. After some minutes, the website will be shown as live. if you refresh the page, and scroll at the top, your website-link will be shown. This indicate that everything is correct. This is how the link shall look like when you are ready to go (https://pphilippersson6.github.io/philip-spa-PP1/)
+1. At first, you navigate to **Settings** on the page where you see your project. ![Github Settings](readme-assets/images/github-settings.png)
+2. Scroll down to you see the **Pages** section on the left side of the page. Press it. ![Github Pages](readme-assets/images/github-pages.png)
+3. Under the **Build and deployment** header, navigate to the second header - **Branch**. Make sure to select the **source**, to your main. Its often called **main** or **master**, and then **save**. ![Github Deploy](readme-assets/images/github-deploy.png)
+4. After some minutes, the website will be shown as live. if you refresh the page, and scroll at the top, your website-link will be shown. This indicate that everything is correct. This is how the link shall look like when you are ready to go (https://pphilippersson6.github.io/philip-spa-PP1/) ![Github html link](readme-assets/images/github-live-link.png)
 
 ### Fork the repository (Github)
 You can create a copy of the project/repository by use something called forking. To fork the content on Github, 
 1. Locate the project/repo you want to fork.
-2. Press **Fork** on the top right side of the page. 
-3. Press the green button to make the copy to your own github.
+2. Press **Fork** on the top right side of the page. ![Fork](readme-assets/images/github-fork.png)
+3. Press the green button to make the copy to your own github. ![Forkbutton](readme-assets/images/github-forkbutton.png)
 This makes you a copy of the project in your own github. This is good if you are more than one to work on a project. It is hard to work on the same file more than one at a time.
 
 ### Local clone
 To clone the project local, follow the steps below.
-1. on the lef side of the green button (Gitpod) where you press to get to the code,
-there is a button called **code**, press it.
-2. Then press on the copy-button to get your own link. This is to clone the project, by getting an URL (**HTTPS**).
+1. on the left side of the green button (Gitpod) where you press to get to the code,
+there is a button called **code**, press it. ![Git Code](readme-assets/images/github-clone-code.png)
+2. Then press on the copy-button to get your own link. This is to clone the project, by getting an URL (**HTTPS**). ![Copy HTTPS](readme-assets/images/github-clone-copy.png)
 3. Open **Git Bash** and change it to the location you want to cone it.
 4. Type **git clone** and paste the url, and enter.
 Now you have a cloned project stored local.
@@ -110,15 +118,17 @@ Now you have a cloned project stored local.
 # Testing
 
 ## Validator Testing
-The codes have been tested by alot of aspects. One of the programs i used was the [W3C Validator](https://validator.w3.org/) This one checkt the HTML, and [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) checks the CSS.
+The codes have been tested by alot of aspects. One of the programs i used was the [W3C Validator](https://validator.w3.org/) This one checkt the HTML, and [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/) checks the CSS.
 
 - HTML check at the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
-    - The first run showed me a small error - and this was fixed evry simple since i just forgot to close a tag.
+    - The first run showed me a small error - "Stray end tag". This was fixed evry simple, since i just had made two endtags. I removed the second endtag. ![Error on HTML validator](readme-assets/images/error1.png)
     - I made a second run to check that nothing else was appearing. 
-        No errors was found when i tested it. 
+        No errors was found when i tested it. ![Error fixed](readme-assets/images/no-error.png)
 
 - CSS 
-    - No errors was found here eighter, when i ran it trought the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+    - No errors was found here eighter, when i ran it trought the official [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) ![CSS Test](readme-assets/images/w3css-test.png)
+
+    ## Lighthouse
 
 ## Responsive test (media)
 I have tested the site on three different main-sizes. 
@@ -129,18 +139,18 @@ Ipad Mini (768x1024px)
 
 
 ### Unfixed bugs
-    - 
+- No unfixed bugs.
 
     # Credits
     ### Content
-    * The font is from [Google Fonts] ()
-    * The icons and fonts are also from [Bootstrap] https://getbootstrap.com/
-    * The colors are from color-palettes, by[My Brand New Logo] https://mybrandnewlogo.com/
-    * The map is made from [Google Maps]
-    * The validation websites are from the official site [https://validator.w3.org/]() and [https://jigsaw.w3.org/css-validator/]
-    * The contact-form is inspired by [https://www.majesticform.com/form-guides/html-email-form]
-    * The wireframe is designed on https://miro.com/
-    * Navigation-bar and the header are inspired by the love-running project made by [The Code Institute] (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+    * The font is from [Google Fonts](https://fonts.google.com/)
+    * The icons and fonts are also from [Bootstrap](https://getbootstrap.com/)
+    * The colors are from color-palettes, by [My Brand New Logo](https://mybrandnewlogo.com/)
+    * The map is made and borrowed from [Google Maps](https://goo.gl/maps/cWNoHBrx8QueiSH46)
+    * The validation websites are from the official site [W3C Validator](https://validator.w3.org/) and [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/)
+    * The contact-form is inspired by [Majestic Form](https://www.majesticform.com/form-guides/html-email-form)
+    * The wireframe is designed on [Miro.com](https://miro.com/)
+    * Navigation-bar and the header are inspired by the love-running project made by [The Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
 
     ### Media
-    * The images are borrowed from https://unsplash.com/s/photos/spa
+    * The images are borrowed from [Unsplash](https://unsplash.com/s/photos/spa)
