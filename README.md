@@ -144,6 +144,8 @@ Ipad Mini (768x1024px)
 
     # Credits
     ### Content
+    * The footer (structure) is borrowed from (https://alvarotrigo.com/blog/website-footers/). But i have changed some small stuff on it to make it my own.
+    * My contact form is inspired, and i learned more about contact-form by [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
     * The font is from [Google Fonts](https://fonts.google.com/)
     * The icons and fonts are also from [Bootstrap](https://getbootstrap.com/)
     * The colors are from color-palettes, by [My Brand New Logo](https://mybrandnewlogo.com/)
@@ -154,4 +156,4 @@ Ipad Mini (768x1024px)
     * Navigation-bar and the header are inspired by the love-running project made by [The Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
 
     ### Media
-    * The images are borrowed from [Unsplash](https://unsplash.com/s/photos/spa)
+    * All of the images are borrowed from [Unsplash](https://unsplash.com/s/photos/spa)
