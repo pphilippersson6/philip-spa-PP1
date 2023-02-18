@@ -28,6 +28,7 @@ header {
     font-size: 50px;
 
 }
+
 /* Navbar */
 .navigation-bar {
     margin-top: 40px;
@@ -211,32 +212,80 @@ body {
         margin-left: 10%;
         margin-right: 10%;
     }
-    .rows h3, .rows p {
+
+    .rows h3,
+    .rows p {
         font-size: 1.7rem;
 
     }
+
     .facilities-text {
         font-size: 1.7rem;
-        margin-left: 10% ;
+        margin-left: 10%;
         margin-right: 10%;
     }
 }
-    
+
 
 /* Small Tablet media-size */
 @media screen and (max-width: 768px) {
-   
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
     }
 
-    
+    .rows {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rows h3,
+    .rows p {
+        font-size: 1rem;
+
+    }
+
+}
+
+/* Large phone-devices */
+@media screen and (max-width: 440px) {
+    .header-heading {
+        font-size: 2rem;
+    }
+
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .rows {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rows h3,
+    .rows p {
+        font-size: 1rem;
+
+    }
+}
 
 
 /* Phone media-size */
 @media screen and (max-width: 375px) {
 
     .header-heading {
-        font-size: 40px;
+        font-size: 2rem;
     }
+
     .rows {
         gap: 70px;
         margin-bottom: 30px;
@@ -246,11 +295,21 @@ body {
         text-decoration: none;
         font-size: 14px;
     }
+
     .facilities-text {
         font-size: 1rem;
     }
-.rows p {
-    font-size: 1rem;
+
+    .rows p {
+        font-size: 1rem;
+    }
+
 }
 
+/* Smaller devices*/
+@media screen and (max-width: 280px) {
+
+    .footer {
+        margin-top: 100px;
+    }
 }

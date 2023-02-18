@@ -250,14 +250,23 @@ body {
     }
 }
 
-/* Small Tablet media-size */
-@media screen and (max-width: 768px) {}
+
+/* Large phone-devices */
+@media screen and (max-width: 440px) {
+    .header-heading {
+        font-size: 2rem;
+    }
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    }
 
 /* Phone media-size */
 @media screen and (max-width: 375px) {
 
     .header-heading {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     .text-image-header {
@@ -298,4 +307,10 @@ body {
     
     }
 
+}
+/* Smaller devices*/
+@media screen and (max-width: 280px) {
+.header-heading {
+    font-size: 2rem;
+}
 }

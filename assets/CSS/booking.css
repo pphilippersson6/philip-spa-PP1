@@ -175,7 +175,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color:green;
+    background-color: green;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -267,6 +267,7 @@ input[type=submit] {
         top: 68%;
         right: 33%;
     }
+
     input[type=text],
     input[type=email],
     select,
@@ -276,7 +277,7 @@ input[type=submit] {
 
     }
 }
-    
+
 
 /* Small Tablet media-size */
 @media screen and (max-width: 768px) {
@@ -301,11 +302,32 @@ input[type=submit] {
     }
 }
 
+/* Large phone-devices */
+@media screen and (max-width: 440px) {
+    .header-heading {
+        font-size: 2rem;
+    }
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .google-maps {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .text-image-header-booking {
+        top: 90%;
+        right: 21%;
+    }
+    }
+
 /* Phone media-size */
 @media screen and (max-width: 375px) {
 
     .header-heading {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     .text-image-header {
@@ -322,20 +344,15 @@ input[type=submit] {
         font-size: 17px;
         width: 180px;
         height: 180px;
-        padding-top: 20px;
-        padding-left: 15px;
         top: 110%;
-        right: 26%;
+        right: 23%;
     }
 
     .google-maps {
-        border: solid;
-        display: block;
         width: 300px;
         height: 300px;
         margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
     input[type=text],
@@ -346,5 +363,24 @@ input[type=submit] {
         padding: 15px;
 
     }
-   
+}
+
+/* Smaller devices*/
+@media screen and (max-width: 280px) {
+
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .google-maps {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .text-image-header-booking {
+        top: 70%;
+        right: 12%;
+    }
 }
