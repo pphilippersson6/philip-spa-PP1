@@ -132,11 +132,13 @@ The codes have been tested by alot of aspects. One of the programs i used was th
     ## Lighthouse
 
 ## Responsive test (media)
-I have tested the site on three different main-sizes. 
-Those are the three ones that are the most important - since if those work, the others work aswell.
-Iphone SE (375x667px) 
-Ipad Air (820x1180px)
-Ipad Mini (768x1024px)
+- I have tested the site in developer-tools on google chrome. I made it responsive, so i could try all different sizes. My starting pixles was from 280px, and worked up to the biggest screen i could make, 2293 pixles. It's very responsive on those sizes.
+- Down below, you can find some screenshots on the main - sizes i think is the most usable, to see its working all fine, and is very responsive.
+
+
+ - Iphone SE (375x667px) SCREENSHOT!!!
+ - Ipad Air (820x1180px) SCREENSHOT!!!
+ - Ipad Mini (768x1024px) SCREENSHOT!!!
 
 
 ### Unfixed bugs

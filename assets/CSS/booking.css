@@ -255,17 +255,24 @@ input[type=submit] {
     margin: 0% 1%;
 }
 
+/* Medium laptop-size */
+@media screen and (max-width: 1215px) {
+    .text-image-header-booking {
+        top: 95%;
+        right: 21%;
+        font-size: 17px;
+        width: 250px;
+        height: 120px;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+}
+
 /* Medium tablet-size */
 @media screen and (max-width: 820px) {
     .text-image-header-booking {
-        font-size: 23px;
-        width: 250px;
-        height: 170px;
-        padding-top: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        top: 68%;
-        right: 33%;
+        top: 90%;
+        right: 21%;
     }
 
     input[type=text],
@@ -276,20 +283,38 @@ input[type=submit] {
         padding: 15px;
 
     }
+
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 90%;
+        padding: 15px;
+
+    }
+    .header-heading {
+        font-size: 2rem;
+    }
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .google-maps {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    
 }
 
 
 /* Small Tablet media-size */
 @media screen and (max-width: 768px) {
     .text-image-header-booking {
-        font-size: 20px;
-        width: 230px;
-        height: 150px;
-        padding-top: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        top: 81%;
-        right: 33%;
+        top: 90%;
+        right: 21%;
     }
 
     input[type=text],
@@ -300,7 +325,20 @@ input[type=submit] {
         padding: 15px;
 
     }
-}
+    .header-heading {
+        font-size: 2rem;
+    }
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .google-maps {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    }
 
 /* Large phone-devices */
 @media screen and (max-width: 440px) {
@@ -344,7 +382,7 @@ input[type=submit] {
         font-size: 17px;
         width: 180px;
         height: 180px;
-        top: 110%;
+        top: 80%;
         right: 23%;
     }
 
