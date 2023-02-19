@@ -47,8 +47,11 @@ Philip's Spa & Resort has three pages of content. The landingpage [Home](index.h
 - The booking site contains a map from google, with the location of the spa. This allows the user to locate, and find us without any doubts. 
 ![Google maps](readme-assets/images/google-maps-loaction.png)
     
-- It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below. ![Contact-text](readme-assets/images/contactustext.png)
-- Contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side. ![Contactform](readme-assets/images/contact-form.png)
+- It also contains a text in a box, that reminds them to scroll down, to remove any distractions, and inform them that there is a contact form below. 
+
+![Contact-text](readme-assets/images/contactustext.png)
+
+- A contact form is located at the bottom of the page. The contact form is for book, or if any questions appear, navigating on the side. ![Contactform](readme-assets/images/contact-form.png)
 
 ### Thank you for contacting us page
 
@@ -57,7 +60,7 @@ Then, there's also a button that will get you back to the main page. ![Form-mess
 
  ### About Us
 - The about us page contains infomation of what services we offer.
-- The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. ![About us part1](readme-assets/images/about-us1.png), ![About us part2](readme-assets/images/about-us2.png), ![About us part3](readme-assets/images/about-us3.png)
+- The pictures and the text information makes the visitors feel more comfortable. This is because they can both see, and read what we offer. ![About us part1](readme-assets/images/about-us1.png) ![About us part2](readme-assets/images/about-us2.png) ![About us part3](readme-assets/images/about-us3.png)
 
 # Features
 
@@ -118,14 +121,20 @@ The codes have been tested by alot of aspects. One of the programs i used was th
 - HTML check at the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F)
     - The first run showed me a small error - "Stray end tag". This was fixed evry simple, since i just had made two endtags. I removed the second endtag. ![Error on HTML validator](readme-assets/images/error1.png)
     - I made a second run to check that nothing else was appearing. 
-        No errors was found when i tested it. ![Error fixed](readme-assets/images/no-error.png)
+        No errors was found when i tested it. 
+
+        ![Error fixed](readme-assets/images/no-error.png)
 
 - CSS 
     - No errors was found here eighter, when i ran it trought the official [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) ![CSS Test](readme-assets/images/w3css-test.png)
 
     ## Lighthouse
 - I used the lighthouse to test my webpage on different parts. The lighthouse comes from Google Chromes built in developer-tools. 
-It performed well on both the mobile, and desktop size, while going trought four different categories. Check the results below. ![Result of Lighthouse Mobile](readme-assets/images/lighthouse-mobile.png) ![Result of Lighthouse Desktop](readme-assets/images/lighthouse-desktop.png)
+    It performed well on both the mobile, and desktop size, while going trought four different categories.
+    Check the results below:
+
+![Result of Lighthouse Mobile](readme-assets/images/lighthouse-mobile.png)
+![Result of Lighthouse Desktop](readme-assets/images/lighthouse-desktop.png)
 
 
 ## Responsive test (media)
@@ -149,6 +158,7 @@ Steps to test the site on Wave:
 
 - I got no errors.
     Check my result down below:
+
     ![Wave Result](readme-assets/images/wave-result.png)
 
 ### Unfixed bugs
