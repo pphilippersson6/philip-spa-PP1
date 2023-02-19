@@ -285,16 +285,16 @@ body {
     .header-heading {
         font-size: 2rem;
     }
-
+    .navigation-bar>li {
+        text-decoration: none;
+        font-size: 14px;
+    }
     .rows {
         gap: 70px;
         margin-bottom: 30px;
     }
 
-    .navigation-bar>li {
-        text-decoration: none;
-        font-size: 14px;
-    }
+ 
 
     .facilities-text {
         font-size: 1rem;
