@@ -11,14 +11,15 @@ This is a very easy-navigated website for the visitors to book visits and to get
 - The wireframe for this website is designed in [Miro](https://miro.com/). There is a design that is represented on most devices. This was a design that was made in the beginning, so there are some minor differences. 
 ![Wireframe](readme-assets/images/wireframe.png)
 
-## Structure of the site
-
-Philip's Spa & Resort has three pages of content. The landingpage [Home](index.html) is the first page you will see. The other two pages are the [Booking](booking.html) and the [About Us](about-us.html). Here can you navigate to eighter get info about what content to expect, or you can fill in the contact form to get help by any questions.
-
 ## Color choice
 I've chosen to use light colors on the background-color. This is to get a soft and relaxing feeling, to represent a feeling you want to achieve at a spa. It will blend in easily by the pictures i have chosen to use on my page.
 I got the inspiration to find good color-matchings at the palettes by [mybrandnewlogo](https://mybrandnewlogo.com/)
 ![Main Colors](readme-assets/images/colorpalette%20main.png)
+
+## Structure of the site
+
+Philip's Spa & Resort has three pages of content. The landingpage [Home](index.html) is the first page you will see. The other two pages are the [Booking](booking.html) and the [About Us](about-us.html). Here can you navigate to eighter get info about what content to expect, or you can fill in the contact form to get help by any questions.
+
 
  ### Landing Page
 
