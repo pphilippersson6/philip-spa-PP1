@@ -2,6 +2,7 @@
 
 This is a website for a luxurious Spa & Resort located in Sweden. Everyone needs some relaxing days once in a while. Then, you're at the right place!
 This is a very easy-navigated website for the visitors to book visits and to get info about the spa in general.
+![Am i Responsive](readme-assets/images/amiresponsive.png)
 
 # User Experience (UX)
 
@@ -107,15 +108,6 @@ You can create a copy of the project/repository by use something called forking.
 3. Press the green button to make the copy to your own github. ![Forkbutton](readme-assets/images/github-forkbutton.png)
 This makes you a copy of the project in your own github. This is good if you are more than one to work on a project. It is hard to work on the same file more than one at a time.
 
-### Local clone
-To clone the project local, follow the steps below.
-1. on the left side of the green button (Gitpod) where you press to get to the code,
-there is a button called **code**, press it. ![Git Code](readme-assets/images/github-clone-code.png)
-2. Then press on the copy-button to get your own link. This is to clone the project, by getting an URL (**HTTPS**). ![Copy HTTPS](readme-assets/images/github-clone-copy.png)
-3. Open **Git Bash**/**Terminal** and change it to the location you want to cone it.
-4. Type **git clone** and paste the url, and enter.
-Now you have a cloned project stored local.
-
 # Testing
 
 ## Validator Testing
@@ -130,32 +122,49 @@ The codes have been tested by alot of aspects. One of the programs i used was th
     - No errors was found here eighter, when i ran it trought the official [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpphilippersson6.github.io%2Fphilip-spa-PP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) ![CSS Test](readme-assets/images/w3css-test.png)
 
     ## Lighthouse
+- I used the lighthouse to test my webpage on different parts. The lighthouse comes from Google Chromes built in developer-tools. 
+It performed well on both the mobile, and desktop size, while going trought four different categories. Check the results below. ![Result of Lighthouse Mobile](readme-assets/images/lighthouse-mobile.png) ![Result of Lighthouse Desktop](readme-assets/images/lighthouse-desktop.png)
+
 
 ## Responsive test (media)
-- I have tested the site in developer-tools on google chrome. I made it responsive, so i could try all different sizes. My starting pixles was from 280px, and worked up to the biggest screen i could make, 2293 pixles. It's very responsive on those sizes.
-- Down below, you can find some screenshots on the main - sizes i think is the most usable, to see its working all fine, and is very responsive.
+- I have tested the site in developer-tools on Google chrome. I made it responsive so all types of devices are user-friendly. My starting pixles was from 280px since that's the smallest screen i could find someone is using, and worked up to the biggest screen i could make, (2293 pixles).
 
+- To test the responsivenes, folow the steps below:
+1. Open the web-browser and navigate to the site [Philip's Spa & Resort](https://pphilippersson6.github.io/philip-spa-PP1/index.html)
+2. Press F12
+3. Click above the site, (under the html links) and make it to responsive.
+4. Drag the window rigt/left to make the website bigger and smaller.
 
- - Iphone SE (375x667px) SCREENSHOT!!!
- - Ipad Air (820x1180px) SCREENSHOT!!!
- - Ipad Mini (768x1024px) SCREENSHOT!!!
+This shows how responsive my website are on the different sizes/devices.
 
+## Wave 
+- Wave is a tool to check the accessibility of my website to users with disabilities. I used this site because it's important that all users are getting a good experience at the website.
+
+Steps to test the site on Wave:
+1. Navigate to [Wave](https://wave.webaim.org/)
+2. Copy and paste the link of the website you want to test [Philip's Spa & Resort](https://pphilippersson6.github.io/philip-spa-PP1/index.html)
+3. check the result on the left side.
+
+- I got no errors.
+    Check my result down below:
+    ![Wave Result](readme-assets/images/wave-result.png)
 
 ### Unfixed bugs
 - No unfixed bugs.
 
     # Credits
     ### Content
-    * The footer (structure) is borrowed from (https://alvarotrigo.com/blog/website-footers/). But i have changed some small stuff on it to make it my own.
-    * My contact form is inspired, and i learned more about contact-form by [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+    * My contact form is inspired, and i learned more about contact-form by [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp), and [Majestic Form](https://www.majesticform.com/form-guides/html-email-form)
     * The font is from [Google Fonts](https://fonts.google.com/)
     * The icons and fonts are also from [Bootstrap](https://getbootstrap.com/)
     * The colors are from color-palettes, by [My Brand New Logo](https://mybrandnewlogo.com/)
     * The map is made and borrowed from [Google Maps](https://goo.gl/maps/cWNoHBrx8QueiSH46)
-    * The validation websites are from the official site [W3C Validator](https://validator.w3.org/) and [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/)
-    * The contact-form is inspired by [Majestic Form](https://www.majesticform.com/form-guides/html-email-form)
-    * The wireframe is designed on [Miro.com](https://miro.com/)
+    * The footer (structure) is borrowed from (https://alvarotrigo.com/blog/website-footers/)
+    * The wireframe is designed in [Miro.com](https://miro.com/)
     * Navigation-bar and the header are inspired by the love-running project made by [The Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+    * The validation websites are tested at the official sites [W3C Validator](https://validator.w3.org/) and [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/)
+    * Wave webaim was used to check the content to users with disabilities. [Wave Webaim](https://wave.webaim.org/)
+    * Google Lighthouse was used in Google Chrome developertools to check the performance of the whole website.
 
     ### Media
     * All of the images are borrowed from [Unsplash](https://unsplash.com/s/photos/spa)
