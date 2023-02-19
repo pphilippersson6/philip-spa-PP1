@@ -20,7 +20,7 @@ I've chosen to use light colors on the background-color. This is to get a soft a
 I got the inspiration to find good color-matchings at the palettes by [mybrandnewlogo](https://mybrandnewlogo.com/)
 ![Main Colors](readme-assets/images/colorpalette%20main.png)
 
-- ### Landing Page
+ ### Landing Page
 
 - The homepage (landing page) have a big picture of a pool, with a text in it, to get visitors attention. The things i wanted to create was luxorious and relaxing content.
 ![Landing page](readme-assets/images/landingpage.png)

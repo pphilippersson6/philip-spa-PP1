@@ -212,8 +212,6 @@ input[type=submit] {
 
 }
 
-
-
 /* Footer */
 
 .footer {
@@ -255,7 +253,10 @@ input[type=submit] {
     margin: 0% 1%;
 }
 
-/* Medium laptop-size */
+/* MEDIA STYLING */
+
+/* Media for screens that are 1215px, down to 821px.*/
+
 @media screen and (max-width: 1215px) {
     .text-image-header-booking {
         top: 95%;
@@ -268,7 +269,7 @@ input[type=submit] {
     }
 }
 
-/* Medium tablet-size */
+/* Media for screens that are 820px, down to 769px.*/
 @media screen and (max-width: 820px) {
     .text-image-header-booking {
         top: 90%;
@@ -293,24 +294,27 @@ input[type=submit] {
         padding: 15px;
 
     }
+
     .header-heading {
         font-size: 2rem;
     }
+
     .navigation-bar>li {
         text-decoration: none;
         font-size: 14px;
     }
+
     .google-maps {
         width: 350px;
         height: 350px;
 
     }
 
-    
+
 }
 
+/* Media for screens that are 768px, down to 441px.*/
 
-/* Small Tablet media-size */
 @media screen and (max-width: 768px) {
     .text-image-header-booking {
         top: 90%;
@@ -325,30 +329,36 @@ input[type=submit] {
         padding: 15px;
 
     }
+
     .header-heading {
         font-size: 2rem;
     }
+
     .navigation-bar>li {
         text-decoration: none;
         font-size: 14px;
     }
+
     .google-maps {
         width: 350px;
         height: 350px;
 
     }
 
-    }
+}
 
-/* Large phone-devices */
+/* Media for screens that are 441px, down to 376px.*/
+
 @media screen and (max-width: 440px) {
     .header-heading {
         font-size: 2rem;
     }
+
     .navigation-bar>li {
         text-decoration: none;
         font-size: 14px;
     }
+
     .google-maps {
         width: 350px;
         height: 350px;
@@ -359,9 +369,10 @@ input[type=submit] {
         top: 90%;
         right: 21%;
     }
-    }
+}
 
-/* Phone media-size */
+/* Media for screens that are 375px, down to 281px.*/
+
 @media screen and (max-width: 375px) {
 
     .header-heading {
@@ -403,7 +414,7 @@ input[type=submit] {
     }
 }
 
-/* Smaller devices*/
+/* Media for screens that are 280px and less.*/
 @media screen and (max-width: 280px) {
 
     .navigation-bar>li {

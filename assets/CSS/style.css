@@ -37,6 +37,8 @@ header {
     right: auto;
 }
 
+/* Nav bar */
+
 .navigation-bar {
     margin-top: 40px;
     display: flex;
@@ -58,8 +60,6 @@ header {
 .navigation-bar>li>a>i {
     font-size: 1.2rem;
 }
-
-
 
 .navigation-bar {
     font-family: 'Raleway', Arial, sans-serif;
@@ -219,14 +219,15 @@ body {
     margin: 0% 1%;
 }
 
+/* MEDIA STYLING */
 
-/* Medium tablet-size */
+/* Media for screens that are 820px, down to 441px.*/
+
 @media screen and (max-width: 820px) {
     .navigation-bar>li {
         text-decoration: none;
         font-size: 14px;
     }
-    
 
     #announcements {
         height: 1000px;
@@ -250,28 +251,30 @@ body {
         left: 7%;
 
     }
+
     .announcement-image {
         width: 400px;
         height: 250px;
-       }
+    }
 }
 
+/* Media for screens that are 440px, down to 376px.*/
 
-/* Large phone-devices */
 @media screen and (max-width: 440px) {
     .header-heading {
         font-size: 2rem;
     }
-    
-    .announcement-image {
-     width: 300px;
-     height: 200px;
-    }
-    }
 
-/* Phone media-size */
+    .announcement-image {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Media for screens that are 375px, down to 281px.*/
+
 @media screen and (max-width: 375px) {
-    
+
     .navigation-bar>li {
         text-decoration: none;
         font-size: 11px;
@@ -284,17 +287,17 @@ body {
 
     }
 
-
     #announcements {
         height: 740px;
         margin-bottom: 0px;
     }
 
-#big-header {
-    font-size: 1.6rem;
-    margin-left: 1%;
-    margin-right: 1%;
-}
+    #big-header {
+        font-size: 1.6rem;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     #right-announcement {
         margin-top: 30px;
     }
@@ -304,13 +307,16 @@ body {
         height: 150px;
         width: 250px;
         margin-bottom: 10px;
-    
+
     }
 
 }
-/* Smaller devices*/
+
+/* Media for screens that are 280px and less.*/
+
 @media screen and (max-width: 280px) {
-.header-heading {
-    font-size: 2rem;
-}
+
+    .header-heading {
+        font-size: 2rem;
+    }
 }
