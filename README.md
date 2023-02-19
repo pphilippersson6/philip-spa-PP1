@@ -1,7 +1,8 @@
 # Philips Spa & Resort!
 
 This is a website for a luxurious Spa & Resort located in Sweden. Everyone needs some relaxing days once in a while. Then, you're at the right place!
-This is a very easy-navigated website for the visitors to book visits and to get info about the spa in general.
+This is a very easy-navigated website for the visitors to book visits and to get info about the spa in general. Check it out here! [Philip's Spa & Resort](https://pphilippersson6.github.io/philip-spa-PP1/booking.html)
+
 ![Am i Responsive](readme-assets/images/amiresponsive.png)
 
 # User Experience (UX)
